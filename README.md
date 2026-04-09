@@ -14,3 +14,37 @@ The focus of this project is clean UI, proper state management, and real-world R
 ❌ 404 Not Found page
 ⚡ Fast performance with Vite
 🎯 Redux for state management
+
+📁 Folder Structure
+src/
+│
+├── components/
+│   ├── layout/
+│   │   └── Header.jsx
+│   ├── product/
+│   │   └── ProductItem.jsx
+│   ├── cart/
+│   │   └── CartItem.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── ProductList.jsx
+│   ├── ProductDetail.jsx
+│   ├── Cart.jsx
+│   ├── Checkout.jsx
+│   ├── NotFound.jsx
+│
+├── redux/
+│   ├── store.js
+│   ├── slices/
+│   │   ├── cartSlice.js
+│   │   ├── searchSlice.js
+│
+├── hooks/
+│   └── useProducts.js
+│
+├── styles/
+│   └── index.css
+│
+├── App.jsx
+├── main.jsx
