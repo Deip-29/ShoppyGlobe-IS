@@ -41,7 +41,7 @@ export default function Cart() {
         </h2>
 
         <button className="checkout-btn">
-          Proceed to Checkout
+          Here Proceed to Checkout
         </button>
       </div>
 
