@@ -1,0 +1,91 @@
+/* =========================
+   IMPORT FONT
+========================= */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* =========================
+   ROOT VARIABLES (COLOR SYSTEM)
+========================= */
+:root {
+  --bg: #f6f8fb;
+  --card: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --primary: #2563eb;
+  --primary-light: #3b82f6;
+  --border: #e5e7eb;
+}
+
+/* =========================
+   RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: white;
+  height: 65px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+}
+
+.nav h2 {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.nav div {
+  display: flex;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.nav a:hover {
+  color: var(--primary);
+}
+
+/* =========================
+   CONTAINER
+========================= */
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* =========================
+   GRID
+========================= */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 22px;
+}
