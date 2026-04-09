@@ -78,4 +78,5 @@ http://localhost:5173
 
 This project was built as a hands-on way to understand how real-world e-commerce apps work — from UI design to state management.
 
-If you're reviewing this, feel free to explore, suggest improvements, or fork the project 🚀
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+My git repo LINK -------https://github.com/Deip-29/ShoppyGlobe-IS.git
